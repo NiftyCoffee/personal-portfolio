@@ -1,0 +1,53 @@
+header.banner {
+    background: linear-gradient(#624d69, #182665);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 7rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 75%;
+}
+
+.banner h1 {
+    text-transform: lowercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 5rem;
+    margin: 0;
+}
+
+.banner h4 {
+    font-size: 2.3rem;
+    margin: 0.7rem 0 4rem 0;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+.banner h4, .banner p {
+    color: #d0d0d0;
+    font-family: 'Arial';
+}
+
+.banner .my-name {
+    text-transform: capitalize;
+    color: #aed2ff;
+}
+
+.banner div {
+    display: inline-block;
+    margin: auto 0;
+    width: 45%;
+}
+
+.banner .profile_pic {
+    display: inline-block;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    margin: auto 0;
+}

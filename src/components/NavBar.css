@@ -1,0 +1,21 @@
+.nav-bar {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar .my-name {
+    display: inline-block;
+    margin: auto 0;
+}
+
+.nav-bar ul {
+    display: inline-block;
+}
+
+.nav-bar ul li {
+    display: inline;
+    padding: 0 1rem;
+    margin: auto 0;
+}
