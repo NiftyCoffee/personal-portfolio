@@ -1,8 +1,12 @@
 .nav-bar {
-    position: absolute;
+    position: fixed;
     top: 0;
+    z-index: 1;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
 }
 
 .nav-bar .my-name {
