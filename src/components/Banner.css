@@ -11,10 +11,6 @@ header.banner {
     height: 75%;
 }
 
-header.banner div {
-    /* margin: 0 2rem; */
-}
-
 .banner h1 {
     text-transform: lowercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -49,34 +45,32 @@ header.banner div {
 }
 
 .banner div.banner-img {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-.banner div.banner-img .profile_pic {
-    z-index: 1;
-    margin: auto 0;
-    position: relative;
-    top: 45%;
-    transform: translateY(-45%);
+.banenr div.banner-img .profile_pic {
+    object-fit: cover;
 }
 
 .banner div.banner-img .profile_border {
     z-index: 2;
-    border: 2px solid #aed2ff;
     position: absolute;
-    top: 25.84%;
-    right: 9.703%;
-    transform: translate(0rem);
-    transition: all 0.2s ease-in-out;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #aed2ff;
+    transition: transform 0.2s ease-in-out;
 }
 
 .banner div.banner-img .profile_pic, .banner div.banner-img .profile_border {
-    display: flex;
     width: 23rem;
     height: 23rem;
     border-radius: 50%;
 }
 
 .banner div.banner-img .profile_border:hover {
-    transform: translate(-1.5rem);
+    transform: translate(-50%, -50%) translate(-1.5rem);
 }

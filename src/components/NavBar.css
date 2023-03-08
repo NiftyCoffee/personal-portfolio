@@ -1,6 +1,7 @@
 .nav-bar {
     position: fixed;
     top: 0;
+    padding-top: 0.5rem;
     z-index: 1;
     width: 100%;
     display: flex;
@@ -14,12 +15,19 @@
     margin: auto 0;
 }
 
-.nav-bar ul {
-    display: inline-block;
+.nav-bar a {
+    text-decoration: none;
 }
 
-.nav-bar ul li {
-    display: inline;
-    padding: 0 1rem;
-    margin: auto 0;
+.nav-bar ul {
+    /* display: inline-block; */
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar ul li a {
+    /* display: inline; */
+    margin: auto 1rem;
+    transition: all 0.3s ease-in-out;
 }
