@@ -1,4 +1,4 @@
-import './NavBar.css'
+import './NavBar.css';
 
 const NavBar = () => {
     return (
@@ -11,7 +11,7 @@ const NavBar = () => {
                 <li><a>Contact</a></li>
             </ul>
         </nav>
-    )
-};
+    );
+}
 
 export default NavBar;

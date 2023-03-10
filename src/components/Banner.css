@@ -1,14 +1,13 @@
 header.banner {
     background: linear-gradient(#624d69, #182665);
-    position: absolute;
+    position: relative;
     top: 0;
     width: 100%;
-    padding: 7rem 0;
     display: flex;
     justify-content: space-evenly;
     color: #fff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 75%;
+    height: 100vh;
 }
 
 .banner h1 {
@@ -21,16 +20,20 @@ header.banner {
 
 .banner h4 {
     font-size: 2.3rem;
-    margin: 0.7rem 0 4rem 0;
+    margin: 0.7rem 0 3rem 0;
 }
 
 .banner p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-family: Geneva;
+    line-height: 2rem;
+    margin: 0;
 }
 
 .banner h4, .banner p {
-    color: #d0d0d0;
-    font-family: 'Arial';
+    color: #fff;
+    /* color: #d0d0d0; */
+    /* font-family: 'Arial'; */
 }
 
 .banner .my-name {
@@ -41,7 +44,7 @@ header.banner {
 .banner div.banner-text {
     display: inline-block;
     margin: auto 0;
-    width: 45%;
+    width: 46%;
 }
 
 .banner div.banner-img {
@@ -61,7 +64,7 @@ header.banner {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid #aed2ff;
+    border: 3px solid #aed2ff;
     transition: transform 0.2s ease-in-out;
 }
 
